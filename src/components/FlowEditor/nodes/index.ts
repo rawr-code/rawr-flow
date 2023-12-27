@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import StartNode from './StartNode'
 import RequestNode from './RequestNode'
 import MultiplyNode from './MultiplyNode'
@@ -14,6 +15,6 @@ const nodeTypes = {
   http: HttpNode,
   firebaseAuth: FirebaseAuthNode,
   interval: IntervalNode,
-}
+} as any
 
 export default nodeTypes
