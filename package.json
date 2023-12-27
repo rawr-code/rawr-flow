@@ -15,9 +15,15 @@
     "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0"
   },
   "dependencies": {
+    "@dnd-kit/core": "^6.1.0",
+    "clsx": "^2.0.0",
     "next": "14.0.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-icons": "^4.12.0",
+    "reactflow": "^11.10.1",
+    "short-uuid": "^4.2.2",
+    "tailwind-merge": "^2.2.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",

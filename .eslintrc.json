@@ -17,5 +17,15 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
+  "rules": {
+    "@typescript-eslint/no-unused-vars": [
+      "error", // or "error"
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "caughtErrorsIgnorePattern": "^_"
+      }
+    ]
+  },
   "plugins": ["@typescript-eslint"]
 }

@@ -15,10 +15,8 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@components/*": ["components/*"],
-      "@utils/*": ["utils/*"],
-      "@lib/*": ["lib/*"],
-      "@services/*": ["services/*"]
+      "@components": ["src/components/index.ts"],
+      "@utils": ["src/utils/index.ts"]
     },
     "plugins": [
       {
